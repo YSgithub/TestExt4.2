@@ -1,0 +1,14 @@
+Ext.define("ys.view.other.PerformancePanel",{
+	extend:'Ext.panel.Panel',
+	border:false,
+	title:'个人业绩',
+	layout:{
+		type:'fit'
+	},
+	items:[
+      Ext.create("ys.view.other.PerformanceForm",{itemId:"performanceForm"})
+	],
+	save:function(){
+   		this.child("#performanceForm").save();
+   	}
+});

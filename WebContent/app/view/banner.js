@@ -1,0 +1,42 @@
+Ext.define("ys.view.banner",{
+    extend:'Ext.panel.Panel',
+    region: 'north',
+    bbar:{
+        itemId:'banerBBar',
+        items:[{
+            itemId:'test',
+            iconCls:'test',
+            text:'测试页面'
+        },{
+            itemId:'save',
+            iconCls:'save',
+            text:'保存'
+        },{
+            itemId:'submit',
+            iconCls:'yes',
+            text:'提交'
+        },{
+            itemId:'export',
+            iconCls:'pdf',
+            text:'导出个人总结'
+        },'-',{
+            itemId:'personBase',
+            text:"",
+            xtype:'tbtext'
+        },{
+            itemId:'fill',
+            xtype:'tbfill'
+        },{
+            itemId:'status',
+            text:"",
+            xtype:'tbtext'
+        },{
+            itemId:'exit',
+            iconCls:'exit',
+            text:'退出'
+        }]
+    },
+    html: '<div id="sys-logo">' +
+        '<img id="pku-logo" src="resources/image/PKU_LOGO.jpg"><div id="sys-name">职工考核评估信息系统</div>' +
+        '</div>'
+});

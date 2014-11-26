@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+#sys-logo{
+	height:60px;
+	margin:10px 10px 10px 10px;
+	color:#BB0000;
+	font-weight:bold;
+	font-family:Microsoft Yahei;
+}
+#pku-logo{
+	width:60px;
+	height:60px;
+	display:inline;
+	vertical-align:middle;
+}
+#sys-name{
+	display:inline;
+	font-size:40px;
+	height:60px;
+	vertical-align:bottom;
+	padding:10px 10px;
+}
+#note-title{
+	margin:20px 10px;
+	text-align:center;
+	font-size:24px;
+	font-weight:bold;
+	font-family:Microsoft Yahei;
+}
+#note-content{
+	text-align:left;
+	font-size:16px;
+	font-family:Microsoft Yahei;
+}
+#note-content ol li{
+	margin:10px 10px;
+}
+
+#valid-result{
+	margin:20px 0px;
+	text-align:left;
+	font-size:16px;
+	font-weight:bold;
+	color:#FF0000;
+	font-family:Microsoft Yahei;
+}
+#valid-msg{
+	text-align:left;
+	font-size:16px;
+	color:#FF0000;
+	font-family:Microsoft Yahei;
+}
+#valid-msg ol li{
+	margin:10px 0px;
+}
+.excel{
+	background-image: url(/evalConsole/resources/image/page_excel.png) !important;
+}
+.email{
+	background-image: url(/evalConsole/resources/image/mail.png) !important;
+}
+.view{
+	background-image: url(/evalConsole/resources/image/black_view.png) !important;
+}
+.open{
+	background-image: url(/evalConsole/resources/image/folder_open.png) !important;
+}
+.add{
+	background-image: url(/reportSConsole/resources/image/edit_add.png) !important;
+}
+.save{
+	background-image: url(/evalConsole/resources/image/save.gif) !important;
+}
+.pdf{
+	background-image: url(/evalConsole/resources/image/pdf.jpg) !important;
+}
+.yes{
+	background-image: url(/evalConsole/resources/image/drop-yes.gif) !important;
+}
+.exit{
+	background-image: url(/evalConsole/resources/image/exit.png) !important;
+}
+.add{
+	background-image: url(/evalConsole/resources/image/add.png) !important;
+}
+.delete{
+	background-image: url(/evalConsole/resources/image/delete.png) !important;
+}
+.import{
+	background-image: url(/evalConsole/resources/image/database_import.png) !important;
+}
+.edit{
+	background-image: url(/evalConsole/resources/image/edit.png) !important;
+}
+.refresh{
+	background-image: url(/evalConsole/resources/image/refresh.png) !important;
+}
+.error{
+	background-image: url(/evalConsole/resources/image/error.png) !important;
+}
+.report-table{
+	width:90%;
+	font-size:14px;
+	margin:auto;
+	padding:5px;
+    border: 1px solid #E2E2E2;
+    border-collapse: collapse;
+}
+.report-table th{
+	padding:2px 5px 2px 5px;
+    border:1px solid #E2E2E2;
+    vertical-align: middle;
+    background-color:#f0f0f0;
+    text-align: center;
+    font-size:14px;
+}
+.report-table td{
+	padding:2px 5px 2px 5px;
+    border:1px solid #E2E2E2;
+    vertical-align: middle;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+}
+.x-panel-header {
+	background-color: #FFFFFF;
+	border: 1px solid #EEEEEE;
+}
+.x-panel-header-text {
+	color:#000000;
+}
+.table-link{
+	color:#0000FF;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.table-text{
+	color:#000000;
+}
+.table-cell-invalid-field{
+	font-style:italic;
+	color:#FFFFFF;
+	background-color: #cf4c35;
+  	border-color: #cf4c35;
+}
